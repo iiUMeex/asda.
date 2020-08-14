@@ -33,12 +33,12 @@ const dateFormat = require('dateformat');
 
 
 
-const prefix = "البرفكس"
-const developers = "ايديك"
+const prefix = "$"
+const developers = "493057051291811844"
 
 ////////
 
-const category = "ايدي الجنل الي تبي تروح فيه التكتات";
+const category = "736606164271366286";
 let mtickets   = true;
 let tchannels  = [];
 let current    = 0;
@@ -56,8 +56,11 @@ client.on("message", message => {
      message.channel.send(`** قائمه اوامر التكت 
 			                 
 \`\`${prefix}new\`\` | لفتح تكت
+
 \`\`${prefix}close\`\` | لغلق التكت
+
 \`\`${prefix}mtickets enable/disable\`\` | لتعطيل وعدم تعطيل التكت
+
 \`\`${prefix}cleartickets\`\` | لمسح جميع التكتات **`) 
      
      } 
